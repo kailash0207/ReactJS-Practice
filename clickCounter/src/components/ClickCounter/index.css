@@ -1,0 +1,38 @@
+.bg-container {
+  height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.counter-container {
+  padding: 20px;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  max-width: 700px;
+}
+.heading {
+  font-size: 55px;
+  text-align: center;
+  color: #2d3a35;
+}
+.count {
+  color: #c20a72;
+}
+.message {
+  font-size: 15px;
+}
+.click-me-btn {
+  background-color: #007bff;
+  border: none;
+  padding: 6px 10px 6px 10px;
+  border-radius: 3px;
+  color: #f1f5f8;
+  cursor: pointer;
+  outline: none;
+}

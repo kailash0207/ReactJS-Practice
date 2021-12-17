@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  font-family: "Roboto";
+}
+.container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  color: #0f172a;
+  text-align: center;
+  font-size: 55px;
+}
+.notify-container {
+  padding: 10px;
+  color: #ffffff;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  width: 50%;
+  align-self: center;
+}
+.info-cont {
+  background-color: #0b69ff;
+}
+.success-cont {
+  background-color: #2dca73;
+}
+.warning-cont {
+  background-color: #ffb800;
+}
+.error-cont {
+  background-color: #ff0b37;
+}
+.icon {
+  width: 20px;
+  margin: 15px 10px 10px 10px;
+  height: 20px;
+}
+.message {
+  font-size: 15px;
+}
+@media screen and (max-width: 991px) {
+  .heading {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .notify-container {
+    width: 90%;
+  }
+}

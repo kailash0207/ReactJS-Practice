@@ -1,0 +1,22 @@
+.denomination {
+  list-style-type: none;
+  margin-bottom: 12px;
+  width: 50%;
+}
+.button {
+  cursor: pointer;
+  width: 95%;
+  height: 50px;
+  background-color: #382f5a;
+  border: 1px solid #c4c4c4;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 30px;
+  font-family: 'Roboto';
+}
+@media screen and (max-width: 767px) {
+  .button {
+    height: 30px;
+    font-size: 20px;
+  }
+}

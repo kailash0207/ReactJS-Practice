@@ -1,0 +1,22 @@
+.destination-container {
+  width: 20%;
+  margin-right: 25px;
+  list-style-type: none;
+}
+.destination-img {
+  width: 100%;
+  max-width: 300px;
+}
+.destination-name {
+  font-family: 'Open Sans';
+  color: #000000;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 767px) {
+  .destination-container {
+    width: 100%;
+    margin: 15px 0px 15px 0px;
+  }
+}

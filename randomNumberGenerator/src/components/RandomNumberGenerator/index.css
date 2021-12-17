@@ -1,0 +1,69 @@
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.random-number-generator-container {
+  margin: 25px;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 40px;
+  box-shadow: 3px 3px 25px 1px #e4ebf3;
+  border: 2px solid #e4ebf3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 90px;
+  font-family: 'Roboto';
+}
+
+.heading {
+  color: #0b69ff;
+  font-size: 30px;
+  text-align: center;
+}
+
+.para {
+  font-size: 25px;
+  color: #333333;
+  text-align: center;
+}
+
+.button {
+  background-color: #0b69ff;
+  color: #eaebed;
+  font-size: 23px;
+  border: none;
+  border-radius: 12px;
+  padding: 13px 22px 13px 22px;
+  outline: none;
+  cursor: pointer;
+}
+
+.random-number {
+  font-size: 60px;
+  color: #0b69ff;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .random-number-generator-container {
+    padding: 40px;
+  }
+  .random-number {
+    font-size: 50px;
+  }
+  .para {
+    font-size: 20px;
+  }
+  .button {
+    font-size: 18px;
+    padding: 10px 16px 10px 16px;
+    border-radius: 8px;
+  }
+}
